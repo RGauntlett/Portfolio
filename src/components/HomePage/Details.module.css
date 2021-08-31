@@ -1,0 +1,31 @@
+.Details div {
+  display: flex;
+}
+
+.Details h3 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.Details h4 {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.Details p {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 2%;
+}
+.Details h5 {
+  margin-left: 2%;
+}
+.subDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subDetails h3 {
+  text-decoration: none;
+  font-weight: normal;
+}
