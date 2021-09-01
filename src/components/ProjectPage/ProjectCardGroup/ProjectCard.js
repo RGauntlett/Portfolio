@@ -1,6 +1,6 @@
 import { Card, Carousel } from "react-bootstrap";
-import PageButton from "../UI/PageButton";
-import CarouselItem from "../UI/CarouselItem";
+import PageButton from "../../UI/PageButton";
+import CarouselItem from "../../UI/CarouselItem";
 
 const ProjectCard = (props) => {
   console.log(props.imgs);

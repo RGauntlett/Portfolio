@@ -29,27 +29,32 @@ const Details = () => {
           <h3>Tech Stack:</h3>
           <Row>
             <Col>
-              <li>React</li>
-              <li>Vue</li>
-              <li>Javascript</li>
-              <li>HTML</li>
+              <ul>
+                <li>React</li>
+                <li>Vue</li>
+                <li>Javascript</li>
+                <li>HTML</li>
+              </ul>
             </Col>
             <Col>
-              {" "}
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>Git</li>
-              <li>Node</li>
-              <li>Firebase</li>
+              <ul>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>Git</li>
+                <li>Node</li>
+                <li>Firebase</li>
+              </ul>
             </Col>
           </Row>
         </Col>
         <Col>
           <h4>Supplemental Education:</h4>
-          <li>React - The Complete Guide - Maximilian Schwarzmüller</li>
-          <li>The Web Developer Bootcamp 2021 - Colt Steele</li>
-          <li>Minor in Computer Information Systems</li>
-          <li>Minor in Mathematics</li>
+          <ul>
+            <li>React - The Complete Guide - Maximilian Schwarzmüller</li>
+            <li>The Web Developer Bootcamp 2021 - Colt Steele</li>
+            <li>Minor in Computer Information Systems</li>
+            <li>Minor in Mathematics</li>
+          </ul>
         </Col>
       </Row>
     </Container>

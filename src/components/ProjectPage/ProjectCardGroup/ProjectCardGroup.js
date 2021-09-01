@@ -1,7 +1,7 @@
 import { CardGroup } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import DiscouterImg from "../../assets/DiscouterImg.png";
-import NBRHDImg from "../../assets/NBRHD.png";
+import DiscouterImg from "../../../assets/DiscouterImg.png";
+import NBRHDImg from "../../../assets/NBRHD.png";
 import styles from "./ProjectCardGroup.module.css";
 
 const ProjectCardGroup = () => {

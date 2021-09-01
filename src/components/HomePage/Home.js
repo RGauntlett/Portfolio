@@ -1,7 +1,8 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Details from "./Details";
 import ProfileImg from "../../assets/HomeIMG.png";
-import ProjectCardGroup from "../ProjectCardGroup/ProjectCardGroup";
+import ProjectCardGroup from "../ProjectPage/ProjectCardGroup/ProjectCardGroup";
+import Navigation from "../UI/Navbar";
 import styles from "./Home.module.css";
 
 const Home = () => {
