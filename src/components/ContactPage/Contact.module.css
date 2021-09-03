@@ -1,0 +1,15 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+}
+
+.Button {
+  margin-top: 20%;
+  margin-bottom: 20%;
+  display: block;
+  width: 5rem;
+}
+
+.Button label {
+  font-weight: bold;
+}

@@ -1,10 +1,11 @@
 import { Container } from "react-bootstrap";
-import Navigation from "../UI/Navbar";
 import ProjectCardGroup from "./ProjectCardGroup/ProjectCardGroup";
+
+import styles from "./ProjectPage.module.css";
 
 const ProjectPage = () => {
   return (
-    <Container>
+    <Container className={styles.ProjectPage}>
       <ProjectCardGroup />
     </Container>
   );

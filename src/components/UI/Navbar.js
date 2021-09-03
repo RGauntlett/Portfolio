@@ -25,7 +25,9 @@ const Navigation = () => {
               <NavDropdown.Item href="https://neighbourhood-boxing.web.app">
                 NBRHD Boxing
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <LinkContainer to="/contact">
+                <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
+              </LinkContainer>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
