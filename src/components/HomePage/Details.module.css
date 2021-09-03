@@ -1,2 +1,10 @@
-.Details ul {
+.Name {
+  color: rgb(216, 211, 211);
+}
+
+.Details {
+  color: rgb(216, 211, 211);
+}
+.Details div {
+  margin-top: 1%;
 }

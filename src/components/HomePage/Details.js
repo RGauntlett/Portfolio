@@ -6,24 +6,35 @@ const Details = () => {
     <Container className={styles.Details}>
       <Row>
         <Col>
-          <h1>Richard Gauntlett</h1>
-        </Col>
-        <Col>
-          <h3>28 Years Old</h3>
-          <h3>Permanent Resident of Aus</h3>
+          <div className={styles.Name}>
+            <h1>Richard Gauntlett</h1>
+          </div>
         </Col>
       </Row>
 
       <Row>
         <Col>
-          <h3>Looking for a developer role </h3>
-        </Col>
-        <Col>
-          <h3>Education:</h3>
-          <h5>Bachelors Degree in Financial Economics</h5>
+          <div>
+            <h4>
+              I am a hard-working and customer-focused individual who has run a
+              small business for the last six years. I'm always looking to take
+              on new challenges and striving to learn skills to be able to
+              provide better service to my customers.
+            </h4>
+          </div>
         </Col>
       </Row>
-
+      <Row>
+        <Col>
+          <div>
+            <h2>Education:</h2>
+            <h5>
+              Bachelors Degree in Financial Economics from James Madison
+              University (USA)
+            </h5>
+          </div>
+        </Col>
+      </Row>
       <Row>
         <Col>
           <h3>Tech Stack:</h3>

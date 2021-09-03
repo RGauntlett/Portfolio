@@ -6,7 +6,7 @@ const Navigation = () => {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <LinkContainer to="/home">
-          <Navbar.Brand href="#home">Richard Gauntlett</Navbar.Brand>
+          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -15,7 +15,9 @@ const Navigation = () => {
             <LinkContainer to="/projects">
               <Nav.Link>Projects</Nav.Link>
             </LinkContainer>
-            <Nav.Link href="#pricing"></Nav.Link>
+            <LinkContainer to="/about">
+              <Nav.Link>About</Nav.Link>
+            </LinkContainer>
           </Nav>
           <Nav>
             <NavDropdown title="Menu" id="collasible-nav-dropdown">

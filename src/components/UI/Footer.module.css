@@ -1,3 +1,15 @@
 .Footer {
-  background-color: blue;
+  background-color: #212529;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer p {
+  text-decoration: line-through;
+  font-weight: bold;
+  font-size: large;
+  color: white;
+  margin-bottom: 0;
 }
