@@ -1,1 +1,37 @@
+.Home {
+  background-image: url("../../assets/BackgroundImg.jpg");
+  background-repeat: no-repeat;
+  background-position: top, bottom;
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  margin: 0%;
+}
 
+.Name {
+  border: 2px solid rgb(12, 12, 12);
+  width: 20em;
+  font-size: x-large;
+  margin: 10%;
+}
+
+.Info {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: rgb(12, 12, 12);
+}
+
+.Info h3 {
+  font-size: xx-large;
+}
+.Info li {
+  font-size: larger;
+  font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  .Name {
+    width: fit-content;
+  }
+}

@@ -1,2 +1,13 @@
 .ProjectPage {
+  background-image: url("../../assets/ProjectPageImg.jpg");
+  background-repeat: no-repeat;
+  background-position: top, bottom;
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  margin: 0%;
+}
+
+.ProjectCards {
+  background-color: rgba(245, 241, 241, 0.4);
 }

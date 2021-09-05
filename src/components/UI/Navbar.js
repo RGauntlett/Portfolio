@@ -6,30 +6,31 @@ const Navigation = () => {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <LinkContainer to="/home">
-          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+          <Navbar.Brand href="#home">Home</Navbar.Brand>
         </LinkContainer>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <LinkContainer to="/projects">
-              <Nav.Link>Projects</Nav.Link>
+              <Nav.Link>Portfolio</Nav.Link>
             </LinkContainer>
             <LinkContainer to="/about">
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
+            <LinkContainer to="/contact">
+              <Nav.Link>Contact</Nav.Link>
+            </LinkContainer>
           </Nav>
           <Nav>
-            <NavDropdown title="Menu" id="collasible-nav-dropdown">
+            <NavDropdown title="Projects" id="collasible-nav-dropdown">
               <NavDropdown.Item href="https://www.discouter.com">
                 Discouter
               </NavDropdown.Item>
               <NavDropdown.Item href="https://neighbourhood-boxing.web.app">
                 NBRHD Boxing
               </NavDropdown.Item>
-              <LinkContainer to="/contact">
-                <NavDropdown.Item href="/contact">Contact</NavDropdown.Item>
-              </LinkContainer>
+
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link

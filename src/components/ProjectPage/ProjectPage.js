@@ -5,9 +5,11 @@ import styles from "./ProjectPage.module.css";
 
 const ProjectPage = () => {
   return (
-    <Container className={styles.ProjectPage}>
-      <ProjectCardGroup />
-    </Container>
+    <div className={styles.ProjectPage}>
+      <Container className={styles.ProjectCards}>
+        <ProjectCardGroup />
+      </Container>
+    </div>
   );
 };
 

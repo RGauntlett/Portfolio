@@ -1,25 +1,29 @@
-import { Card, Carousel } from "react-bootstrap";
 import PageButton from "../../UI/PageButton";
-import CarouselItem from "../../UI/CarouselItem";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import styles from "./ProjectCard.module.css";
 
 const ProjectCard = (props) => {
-  console.log(props.imgs);
   return (
-    <Card>
-      <Carousel>
-        {props.imgs.map((item) => (
-          <CarouselItem image={item.image} key={item.key} />
-        ))}
-      </Carousel>
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text>{props.description}</Card.Text>
-        <PageButton>Take A Look!</PageButton>
-      </Card.Body>
-      <Card.Footer>
-        <small>Last Updated: {props.lastUpdated}</small>
-      </Card.Footer>
-    </Card>
+    <div className={styles.Card}>
+      <Container>
+        <Row>
+          <Col>
+            <Image
+              src={props.image}
+              className={styles.Image}
+              alt="Web Site Snap Shot"
+            />
+            <div className={styles.Body}>
+              <h3>{props.title}</h3>
+              <PageButton>Take A Look!</PageButton>
+            </div>
+            <div className={styles.Footer}>
+              <p>Last Updated: {props.lastUpdated}</p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </div>
   );
 };
 

@@ -1,0 +1,19 @@
+.Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border: 2px solid rgb(32, 32, 32);
+  border-radius: 5%;
+}
+
+.Image {
+  width: 30em;
+  margin-top: 3%;
+  border: 2px solid white;
+  border-radius: 5%;
+}
+
+.Footer {
+  font-weight: bold;
+}

@@ -1,10 +1,4 @@
 .App {
   text-align: center;
-  background-image: url("./assets/BackgroundImg.jpg"),
-    url("./assets/BackgroundImg2.jpg");
-  background-repeat: no-repeat;
-  background-position: top, bottom;
-  background-size: cover;
-  width: 100%;
-  margin: 0%;
+  height: 100%;
 }
