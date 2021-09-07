@@ -1,6 +1,21 @@
 .Details {
-  color: rgb(216, 211, 211);
+  color: rgb(12, 12, 12);
 }
 .Details div {
   margin-top: 1%;
+}
+
+.Details h4 {
+  margin: 5%;
+}
+
+.Border {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 5%;
+  border-radius: 15%;
+}
+
+.Border p {
+  font-size: x-large;
+  font-weight: bold;
 }

@@ -1,0 +1,33 @@
+.Form {
+  width: 30em;
+  border: 1px solid white;
+  border-radius: 15%;
+  background-color: rgba(12, 12, 12, 0.4);
+  display: flex;
+  justify-content: center;
+}
+
+.Form label {
+  margin: 5%;
+}
+
+.Form input {
+  width: 25em;
+}
+
+.Form textarea {
+  width: 25em;
+  height: 10em;
+}
+
+.InputField {
+  margin: 5%;
+  color: white;
+}
+
+.Form button {
+  margin-bottom: 5%;
+}
+
+@media (max-width: 1000) {
+}

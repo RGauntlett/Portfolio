@@ -30,11 +30,6 @@ const Navigation = () => {
               <NavDropdown.Item href="https://neighbourhood-boxing.web.app">
                 NBRHD Boxing
               </NavDropdown.Item>
-
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

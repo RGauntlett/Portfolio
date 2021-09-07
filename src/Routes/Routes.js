@@ -5,7 +5,6 @@ import Navigation from "../components/UI/Navbar";
 import Contact from "../components/ContactPage/Contact";
 import AboutPage from "../components/AboutPage/AboutPage";
 import Footer from "../components/UI/Footer";
-import styles from "./Routes.module.css";
 
 const Routes = () => {
   return (

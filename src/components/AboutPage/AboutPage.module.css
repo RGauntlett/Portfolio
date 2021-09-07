@@ -1,5 +1,31 @@
 .About {
-  background-image: url("../../assets/AboutImg.jpg");
-  background-size: 100%;
-  height: 100%;
+  background-image: url("../../assets/AboutPage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Info {
+  margin: 5%;
+  background-color: rgba(12, 12, 12, 0.4);
+  border-radius: 10%;
+  color: rgb(236, 230, 230);
+  display: flex;
+  justify-content: center;
+}
+
+.Info h2 {
+  margin-top: 5%;
+}
+
+.Info p {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+}
+
+.Info li {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
 }

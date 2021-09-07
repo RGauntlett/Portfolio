@@ -7,6 +7,15 @@
   border-radius: 5%;
 }
 
+.Card h3 {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.Card p {
+  margin-top: 3%;
+}
+
 .Image {
   width: 30em;
   margin-top: 3%;
@@ -16,4 +25,10 @@
 
 .Footer {
   font-weight: bold;
+}
+
+@media (max-width: 880) {
+  .Card {
+    width: 10em;
+  }
 }

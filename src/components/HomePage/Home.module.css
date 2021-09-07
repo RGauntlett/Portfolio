@@ -9,10 +9,10 @@
 }
 
 .Name {
-  border: 2px solid rgb(12, 12, 12);
   width: 20em;
   font-size: x-large;
-  margin: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 .Info {
@@ -20,14 +20,29 @@
   justify-content: center;
   align-items: center;
   color: rgb(12, 12, 12);
+  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 15%;
 }
 
 .Info h3 {
   font-size: xx-large;
 }
-.Info li {
+.Info p {
   font-size: larger;
   font-weight: bold;
+}
+
+.TechStack {
+  border: 1px solid rgb(12, 12, 12);
+  border-radius: 10%;
+  margin-bottom: 5%;
+}
+
+.TechStack:hover {
+  background-color: rgba(12, 12, 12, 0.2);
+  border: 1px solid rgb(250, 250, 250);
+  color: rgb(250, 250, 259);
 }
 
 @media (max-width: 700px) {

@@ -16,27 +16,26 @@ const Home = () => {
               <div className={styles.Name}>
                 <h1>Richard Gauntlett</h1>
               </div>
-
-              <h3>Tech Stack:</h3>
-              <Row>
-                <Col>
-                  <ul>
-                    <li>React</li>
-                    <li>Vue</li>
-                    <li>Javascript</li>
-                    <li>HTML</li>
-                  </ul>
-                </Col>
-                <Col>
-                  <ul>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                    <li>Git</li>
-                    <li>Node</li>
-                    <li>Firebase</li>
-                  </ul>
-                </Col>
-              </Row>
+              <div className={styles.TechStack}>
+                <h3>Tech Stack:</h3>
+                <Row>
+                  <Col>
+                    <ul>
+                      <p>React</p>
+                      <p>Vue</p>
+                      <p>Javascript</p>
+                      <p>HTML</p>
+                    </ul>
+                  </Col>
+                  <Col>
+                    <p>CSS</p>
+                    <p>Bootstrap</p>
+                    <p>Git</p>
+                    <p>Node</p>
+                    <p>Firebase</p>
+                  </Col>
+                </Row>
+              </div>
             </div>
           </Col>
         </Row>
