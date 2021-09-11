@@ -25,9 +25,14 @@
   color: white;
 }
 
-.Form button {
-  margin-bottom: 5%;
+.Submit {
+  color: white;
+  background-color: inherit;
+  max-width: 3rem;
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width: 1000) {
+.Form button {
+  margin-bottom: 5%;
 }

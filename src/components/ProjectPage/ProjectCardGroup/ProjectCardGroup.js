@@ -10,6 +10,7 @@ const ProjectCardGroup = () => {
       key: 1,
       title: "Discouter",
       image: DiscouterImg,
+      url: "https://www.discouter.com",
       description:
         "This is the home website built for the Discouter Mobile App",
       lastUpdated: "25/08/2021",
@@ -18,6 +19,7 @@ const ProjectCardGroup = () => {
       key: 2,
       title: "NBRHD Boxing",
       image: NBRHDImg,
+      url: "https://neighbourhood-boxing.web.app",
       description:
         "Build your Unique Work Out and plan your Rest Time. If you select Guided ShadowBoxing the Site will randomly print out Combos to Throw",
       lastUpdated: "29/08/2021",
@@ -32,6 +34,7 @@ const ProjectCardGroup = () => {
             key={project.key}
             title={project.title}
             image={project.image}
+            url={project.url}
             description={project.description}
             lastUpdated={project.lastUpdated}
             className="mt-3"

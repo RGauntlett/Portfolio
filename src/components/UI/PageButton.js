@@ -3,11 +3,7 @@ import styles from "./PageButton.module.css";
 
 const PageButton = (props) => {
   return (
-    <Button
-      variant="dark"
-      className={styles.PageButton}
-      onClick={props.onClick}
-    >
+    <Button variant="dark" className={styles.PageButton} href={props.url}>
       {props.children}
     </Button>
   );

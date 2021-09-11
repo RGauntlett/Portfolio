@@ -3,19 +3,20 @@
   background-repeat: no-repeat;
   background-position: top, bottom;
   background-size: cover;
-  width: 100%;
+
   height: fit-content;
   margin: 0%;
 }
 
 .ProjectCards {
   background-color: rgba(255, 255, 255, 0.4);
-  width: 40em;
+  margin: 10%;
   border-radius: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-@media (max-width: 880) {
-  .ProjectCards {
-    width: fit-content;
-  }
+.CardGroup {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }

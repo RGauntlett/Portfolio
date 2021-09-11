@@ -15,7 +15,11 @@ const Contact = () => {
         <Row>
           <Col lg={6} md={12}>
             <div className={styles.ButtonGroup}>
-              <Button variant="dark" className={styles.Button}>
+              <Button
+                variant="dark"
+                className={styles.Button}
+                href={"https://www.github.com/rgauntlett"}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"

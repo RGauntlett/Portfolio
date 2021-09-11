@@ -34,3 +34,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 1000) {
+  .Button {
+    display: flex;
+    margin: 2%;
+  }
+}

@@ -9,10 +9,12 @@ const Details = () => {
           <Col>
             <div>
               <h4>
-                I am a hard-working and customer-focused individual who has run
-                a small business for the last six years. I'm always looking to
-                take on new challenges and striving to learn skills to be able
-                to provide better service to my customers.
+                I am a self-motivating and customer-focused individual who has
+                successfully run a small business for the last six years. I am
+                looking for a Front-End development job that has exposure to
+                Back-End development. I promise to use my proven work ethic and
+                drive to learn new skills and become a valuable member of your
+                team.
               </h4>
             </div>
           </Col>
