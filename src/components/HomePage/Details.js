@@ -20,7 +20,7 @@ const Details = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col md={6} sm={12}>
             <div>
               <h2>Education:</h2>
               <p>
@@ -30,7 +30,7 @@ const Details = () => {
             </div>
           </Col>
 
-          <Col>
+          <Col md={6} sm={12}>
             <h2>Supplemental Education:</h2>
             <ul>
               <p>React - The Complete Guide - Maximipan Schwarzmüller</p>

@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Home from "../components/HomePage/Home";
 import ProjectPage from "../components/ProjectPage/ProjectPage";
 import Navigation from "../components/UI/Navbar";
@@ -13,6 +18,7 @@ const Routes = () => {
         <Navigation />
         <Switch>
           <Route exact path="/home" component={Home} />
+          <Redirect exact path="/" to="/home" />
           <Route exact path="/projects" component={ProjectPage} />
           <Route exact path="/about" component={AboutPage} />
           <Route exact path="/contact" component={Contact} />

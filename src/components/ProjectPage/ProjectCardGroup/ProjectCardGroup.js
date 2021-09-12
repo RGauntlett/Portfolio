@@ -1,4 +1,6 @@
 import { CardGroup } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+
 import ProjectCard from "./ProjectCard";
 import DiscouterImg from "../../../assets/DiscouterImg.png";
 import NBRHDImg from "../../../assets/NBRHD.png";
@@ -27,21 +29,27 @@ const ProjectCardGroup = () => {
   ];
 
   return (
-    <CardGroup className="my-5">
-      {projects.map((project) => (
-        <div className={styles.ProjectCard}>
-          <ProjectCard
-            key={project.key}
-            title={project.title}
-            image={project.image}
-            url={project.url}
-            description={project.description}
-            lastUpdated={project.lastUpdated}
-            className="mt-3"
-          />
-        </div>
-      ))}
-    </CardGroup>
+    <Container className="my-5">
+      <Container className={styles.Container}>
+        <Row>
+          {projects.map((project) => (
+            <Col md={12} lg={6}>
+              <div className={styles.ProjectCard}>
+                <ProjectCard
+                  key={project.key}
+                  title={project.title}
+                  image={project.image}
+                  url={project.url}
+                  description={project.description}
+                  lastUpdated={project.lastUpdated}
+                  className="mt-3"
+                />
+              </div>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </Container>
   );
 };
 

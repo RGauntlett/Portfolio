@@ -1,7 +1,10 @@
 .ProjectCard {
-  margin: 5%;
   display: flex;
   justify-content: center;
+  width: max-content;
+}
+.Container {
+  width: 100%;
 }
 
 @media (max-width: 1000) {

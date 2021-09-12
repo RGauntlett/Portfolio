@@ -1,22 +1,19 @@
 .ContactPage {
   background-image: url("../../assets/BackgroundImg2.jpg");
-  background-size: cover;
+  width: 100%;
   background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background-size: cover;
   height: 100%;
 }
 
 .Contact {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .Button {
-  margin-top: 20%;
-  margin-bottom: 20%;
-  display: block;
   width: 5rem;
 }
 
@@ -31,13 +28,18 @@
 
 .ButtonGroup {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
 
 @media (max-width: 1000) {
-  .Button {
-    display: flex;
-    margin: 2%;
+  .EmailForm {
+    height: fit-content;
+    width: 50%;
+  }
+
+  .ButtonGroup {
+    justify-content: space-around;
   }
 }

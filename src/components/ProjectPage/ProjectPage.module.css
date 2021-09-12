@@ -1,22 +1,26 @@
 .ProjectPage {
-  background-image: url("../../assets/ProjectPageImg.jpg");
-  background-repeat: no-repeat;
-  background-position: top, bottom;
-  background-size: cover;
-
-  height: fit-content;
-  margin: 0%;
+  background-image: url("../../assets/AboutImg.jpg"),
+    url("../../assets/ProjectPageImg.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: left, right;
+  background-size: 50%, 50%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 
 .ProjectCards {
-  background-color: rgba(255, 255, 255, 0.4);
-  margin: 10%;
+  width: max-content;
   border-radius: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
-.CardGroup {
-  margin-top: 5%;
-  margin-bottom: 5%;
+@media (max-width: 1000) {
+  .ProjectPage {
+    background-position: top, bottom;
+  }
 }

@@ -1,5 +1,6 @@
 .Form {
-  width: 30em;
+  width: 25em;
+  margin-top: 5%;
   border: 1px solid white;
   border-radius: 15%;
   background-color: rgba(12, 12, 12, 0.4);
@@ -9,19 +10,19 @@
 
 .Form label {
   margin: 5%;
+  display: block;
 }
 
 .Form input {
-  width: 25em;
+  width: 20em;
 }
 
 .Form textarea {
-  width: 25em;
+  width: 20em;
   height: 10em;
 }
 
 .InputField {
-  margin: 5%;
   color: white;
 }
 
@@ -35,4 +36,19 @@
 
 .Form button {
   margin-bottom: 5%;
+}
+
+@media (max-width: 1000) {
+  .Form input {
+    width: 10em;
+  }
+
+  .Form textarea {
+    width: 10em;
+    height: 10em;
+  }
+
+  .Form {
+    width: 15em;
+  }
 }

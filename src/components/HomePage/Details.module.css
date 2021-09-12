@@ -10,6 +10,10 @@
   font-weight: bold;
 }
 
+.Details h2 {
+  font-weight: bold;
+}
+
 .Border {
   background-color: rgba(255, 255, 255, 0.4);
   margin-bottom: 5%;
